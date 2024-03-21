@@ -1,4 +1,4 @@
-# UvA Foundation Model Course 2024
+# UvA Foundation Models Course 2024
 
 The link - http://uvafomo.github.io/
 
