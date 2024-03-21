@@ -1,0 +1,213 @@
+[
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "April 2, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 1,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "April 5, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 1,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "Training Models at Scale",
+		"date": "April 9, 2024",
+		"desc": "TBD.",
+		"lecturer": "Phillip Lippe",
+		"week": 2,
+		"documents": [
+			{"name": "Tutorial Notebooks",
+			"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/scaling/JAX/overview.html",
+			"type": "pdf"}
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "April 12, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 2,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "April 16, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 3,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "April 19, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 3,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "April 23, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 4,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "April 26, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 4,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "May 7, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 6,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "May 14, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 7,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "May 17, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 7,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "May 21, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 8,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "May 24, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 8,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "May 28, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 9,
+		"documents": [
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "TBD",
+		"date": "May 29, 2024",
+		"desc": "TBD.",
+		"lecturer": "Cees Snoek",
+		"week": 9,
+		"documents": [
+		],
+		"recordings": [
+		]
+	}
+]

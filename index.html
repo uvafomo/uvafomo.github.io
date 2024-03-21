@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>UvA Foundation Model Course</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86672135-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">UvA Foundation Model Course</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#lectures">Lectures</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#course-links">Links</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>UvA Foundation Model Course</h1>
+                <hr>
+                <p>MSc in Artificial Intelligence for the University of Amsterdam.</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <hr class="light">
+                    <p class="text-faded" style="text-align:justify">
+                        Foundation models are a revolutionary class of AI models that provides impressive abilities to generate content (text, images, sound, videos, protein structures, and more), and to do so by interactive prompts in a seemingly creative manner. These foundation models are often autoregressive, self-supervised, multimodal, transformer-based models that are pre-trained on large volumes of data, typically collected from the web. They already form the basis of all state-of-the-art systems in computer vision and natural language processing across a wide range of tasks and have shown impressive few-shot learning abilities. The perceived intelligence and adaptability of models like ChatGPT, Stable Diffusion, Flamingo, and GPT4 impress, but their aptitude to produce inaccurate, misleading, or false information (and present it confidently and convincingly) makes them unsuitable for any task of importance and poses serious societal concerns.<br>
+                    </p>
+                    <p class="text-faded" style="text-align:justify">
+                        In this course we consider fundamental algorithmic questions concerning the multimodal learning and reasoning abilities of foundation models, as well as the ethical, legal, and social aspects of their deployment in society. Topics include, but are not limited to, the theory of foundation models, how foundation models appear to give rise to emergent behavior that was not observed during training, how the hallucination problem (as the lack of factual basis is referred to) arises and whether it can be mitigated by learning to retrieve and reference information from trusted sources, how to ensure foundation model objectives are aligned with their operators’ intentions, and how a more decentralized, compositional, and incremental approach to training and serving foundation models might reduce their data and compute hunger.<br>
+                    </p>
+                    <p class="text-faded" style="text-align:justify">
+                        The course is research focused, with lectures on state-of-the-art advancements, reading and presenting of recent papers, and as final course deliverable a research-team project where students may study their own foundation model topic that should result in a research paper that is submitted to an academic venue.
+                    </p>
+                    <p class="text-faded" style="text-align:justify">
+                        This course is taught in the MSc program in Artificial Intelligence of the University of Amsterdam by Professor <a href="https://www.ceessnoek.info/index.php/biography/" style="color: white;">Cees Snoek</a> and Assistant Professor <a href="https://yukimasano.github.io/" style="color: white;">Yuki Asano</a>.
+                        The teaching assistants are
+                        <a href='mailto:a.bhowmik@uva.nl' target='_blank' style='color: white;'>Aritra Bhowmik</a>, <a href='mailto:m.m.derakhshani@uva.nl' target='_blank' style='color: white;'>Mohammad Mahdi Derakhshani</a>, <a href='mailto:m.l.dorkenwald@uva.nl' target='_blank' style='color: white;'>Michael Dorkenwald</a>, <a href='mailto:y.du@uva.nl' target='_blank' style='color: white;'>Yingjun Du</a>, <a href='mailto:danilogoede@gmail.com' target='_blank' style='color: white;'>Danilo de Goede</a>, <a href='mailto:l.lang@uva.nl' target='_blank' style='color: white;'>Leon Lang</a>, <a href='https://phlippe.github.io/' target='_blank' style='color: white;'>Phillip Lippe</a>, <a href='mailto:a.bhowmik@uva.nl' target='_blank' style='color: white;'>Ivona Najdenkoska</a>, <a href='mailto:kienduynguyen94@gmail.com' target='_blank' style='color: white;'>Kien Nguyen</a>, <a href='mailto:s.salehidehnavi@uva.nl' target='_blank' style='color: white;'>Mohammadreza Salehi</a>, <a href='mailto:z.xiao@uva.nl' target='_blank' style='color: white;'>Zehao Xiao</a>
+                    </p>
+                    <a href="https://www.ceessnoek.info/index.php/biography/"><img class="img-circle" src="images/people/cees-snoek.jpg" hspace="5" width="120" title="Cees Snoek"></a>
+                    <a href="https://yukimasano.github.io/"><img class="img-circle" src="images/people/yuki-asano.jpg" hspace="5" width="120" title="Yuki M. Asano"></a><br></br>
+                    <a href='mailto:a.bhowmik@uva.nl'><img class='img-circle' src='images/people/aritra-bhowmik.jpg' hspace='5' width='120' alt='Aritra Bhowmik' title='Aritra Bhowmik'></a>
+<a href='mailto:m.m.derakhshani@uva.nl'><img class='img-circle' src='images/people/mohammad-mahdi-derakhshani.jpg' hspace='5' width='120' alt='Mohammad Mahdi Derakhshani' title='Mohammad Mahdi Derakhshani'></a>
+<a href='mailto:m.l.dorkenwald@uva.nl'><img class='img-circle' src='images/people/michael-dorkenwald.jpg' hspace='5' width='120' alt='Michael Dorkenwald' title='Michael Dorkenwald'></a>
+<a href='mailto:y.du@uva.nl'><img class='img-circle' src='images/people/yingjun-du.jpg' hspace='5' width='120' alt='Yingjun Du' title='Yingjun Du'></a></br></br>
+<a href='mailto:danilogoede@gmail.com'><img class='img-circle' src='images/people/danilo-de-goede.jpg' hspace='5' width='120' alt='Danilo de Goede' title='Danilo de Goede'></a>
+<a href='mailto:l.lang@uva.nl'><img class='img-circle' src='images/people/leon-lang.jpg' hspace='5' width='120' alt='Leon Lang' title='Leon Lang'></a>
+<a href='https://phlippe.github.io/'><img class='img-circle' src='images/people/phillip-lippe.jpg' hspace='5' width='120' alt='Phillip Lippe' title='Phillip Lippe'></a>
+<a href='mailto:a.bhowmik@uva.nl'><img class='img-circle' src='images/people/ivona-najdenkoska.jpg' hspace='5' width='120' alt='Ivona Najdenkoska' title='Ivona Najdenkoska'></a></br></br>
+<a href='mailto:kienduynguyen94@gmail.com'><img class='img-circle' src='images/people/kien-nguyen.jpg' hspace='5' width='120' alt='Kien Nguyen' title='Kien Nguyen'></a>
+<a href='mailto:s.salehidehnavi@uva.nl'><img class='img-circle' src='images/people/mohammadreza-salehi.jpg' hspace='5' width='120' alt='Mohammadreza Salehi' title='Mohammadreza Salehi'></a>
+<a href='mailto:z.xiao@uva.nl'><img class='img-circle' src='images/people/zehao-xiao.jpg' hspace='5' width='120' alt='Zehao Xiao' title='Zehao Xiao'></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lectures">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Lectures</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+
+            <p><h3>Week 1</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 1: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: April 2, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 2: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: April 5, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 2</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 3: Training Models at Scale
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Phillip Lippe<br>Date: April 9, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            <a href='https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/scaling/JAX/overview.html'><i class='fa fa fa-file-text-o text-primary'></i><span class='lecture-document'>Tutorial Notebooks</span></a></br>
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 4: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: April 12, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 3</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 5: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: April 16, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 6: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: April 19, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 4</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 7: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: April 23, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 8: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: April 26, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 6</h3></p>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 9: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: May 7, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 7</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 10: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: May 14, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 11: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: May 17, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 8</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 12: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: May 21, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="margin-bottom: 40px;">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 13: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: May 24, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p><h3>Week 9</h3></p>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 14: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: May 28, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lecture-box" style="">
+                <button type="button" class="lecture-collapsible">
+                    <span class="fa fa-2x fa-university text-primary"></span>
+                    <span class="lecture-title">
+                        Lecture 15: TBD
+                    </span>
+                </button>
+                <div class="lecture-content">
+                    <div class="padding-div">
+                        <p class="text-muted" style="font-size: 12px">Lecturer: Cees Snoek<br>Date: May 29, 2024</p>
+                        <p>TBD.</p>
+                        <h4>Documents:</h4>
+                        <div class="lecture-document-list">
+                            No documents.
+                        </div>
+                        <h4>Lecture recordings:</h4>
+                        <div class="lecture-document-list">
+                            No recordings.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+
+    <section id="course-links">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Links</h2>
+                    <hr class="primary">
+                    <p style="text-align:justify; font-size:18px;">Some useful links for the course are the following:
+
+                    <p>
+                    <div align="left">
+
+                    <ul>
+
+                    <li> <a href="https://canvas.uva.nl/courses/" target="_blank" style="font-size:16px;"> Canvas Course </a></li>
+
+                    <li> <a href="https://datanose.nl/#course[121103]" style="font-size:16px;"> Datanose </a> </li>
+
+                    <li> <a href="https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/scaling/JAX/overview.html" style="font-size:16px;"> Scaling Notebooks</a> </li>
+
+                    </ul>
+
+                    </div>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact us!</h2>
+                    <hr class="primary">
+                    <p class="running-text" style="text-align:justify">
+                    If you have any questions or recommendations for the website or the course, you can always drop us a line!
+                    The knowledge should be free, so feel also free to use any of the material provided here (but please be so kind to cite us).
+                    </p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-map-marker fa-3x wow bounceIn"></i>
+                    <p><a href="https://goo.gl/maps/HzB8CMdkTDA2">Lab42, Science Park 900 1098 XH, Amsterdam, The Netherlands</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:c.g.m.snoek@uva.nl">c.g.m.snoek@uva.nl</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+    <script src="js/collapsible.js"></script>
+
+</body>
+
+</html>

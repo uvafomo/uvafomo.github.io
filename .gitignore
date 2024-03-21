@@ -1,0 +1,23 @@
+
+# Data folders #
+###################
+other_images
+
+# *.asv #
+.gitignore~
+*.tex~
+#*.pdf
+*.log
+*.dvi
+*.aux
+*.brf
+*.ps
+*.blg
+.history.egavves
+.DS_Store
+*/.DS_Store
+
+# Except for #
+!relevant_papers/*.pdf
+!images/*.pdf
+.temp
