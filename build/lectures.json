@@ -1,7 +1,7 @@
 [
 	{
 		"type": "lecture",
-		"name": "TBD",
+		"name": "Introduction and Transformer Basics",
 		"date": "April 2, 2024",
 		"desc": "TBD.",
 		"lecturer": "Cees Snoek",
@@ -15,7 +15,7 @@
 
 	{
 		"type": "lecture",
-		"name": "TBD",
+		"name": "Pre-Training from Language to Vision",
 		"date": "April 5, 2024",
 		"desc": "TBD.",
 		"lecturer": "Cees Snoek",
@@ -102,7 +102,7 @@
 
 	{
 		"type": "lecture",
-		"name": "TBD",
+		"name": "Safety",
 		"date": "April 26, 2024",
 		"desc": "TBD.",
 		"lecturer": "Cees Snoek",
@@ -116,7 +116,7 @@
 
 	{
 		"type": "lecture",
-		"name": "TBD",
+		"name": "Ethics, Law & Society",
 		"date": "May 7, 2024",
 		"desc": "TBD.",
 		"lecturer": "Cees Snoek",
