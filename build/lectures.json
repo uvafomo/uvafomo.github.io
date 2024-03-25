@@ -74,10 +74,10 @@
 
 	{
 		"type": "lecture",
-		"name": "TBD",
+		"name": "Parameter-Efficient Fine Tuning",
 		"date": "April 19, 2024",
 		"desc": "TBD.",
-		"lecturer": "Cees Snoek",
+		"lecturer": "Yuki Asano",
 		"week": 3,
 		"documents": [
 		],
