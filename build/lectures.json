@@ -46,7 +46,7 @@
 
 	{
 		"type": "lecture",
-		"name": "TBD",
+		"name": "Pre-Training Across Modalities",
 		"date": "April 12, 2024",
 		"desc": "TBD.",
 		"lecturer": "Cees Snoek",
@@ -60,7 +60,7 @@
 
 	{
 		"type": "lecture",
-		"name": "TBD",
+		"name": "Adaptation",
 		"date": "April 16, 2024",
 		"desc": "TBD.",
 		"lecturer": "Cees Snoek",
