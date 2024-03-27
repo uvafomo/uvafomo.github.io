@@ -186,21 +186,7 @@
 
 	{
 		"type": "lecture",
-		"name": "TBD",
-		"date": "May 28, 2024",
-		"desc": "TBD.",
-		"lecturer": "Cees Snoek",
-		"week": 9,
-		"documents": [
-		],
-		"recordings": [
-		]
-	},
-
-
-	{
-		"type": "lecture",
-		"name": "TBD",
+		"name": "Project Poster Session",
 		"date": "May 29, 2024",
 		"desc": "TBD.",
 		"lecturer": "Cees Snoek",
