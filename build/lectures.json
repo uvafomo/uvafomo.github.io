@@ -3,7 +3,7 @@
 		"type": "lecture",
 		"name": "Introduction and Transformer Basics",
 		"date": "April 2, 2024",
-		"desc": "TBD.",
+		"desc": "This lecture introduces the course and reviews the basics behind Transformers and their application to NLP and Vision.",
 		"lecturer": "Cees Snoek",
 		"week": 1,
 		"documents": [
