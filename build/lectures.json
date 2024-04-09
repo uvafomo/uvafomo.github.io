@@ -22,7 +22,7 @@
 		"type": "lecture",
 		"name": "Pre-Training from Language to Vision",
 		"date": "April 5, 2024",
-		"desc": "TBD.",
+		"desc": "This lecture discusses pre-training methods for language (GPT, LLaMa) and vision (DINO, MAE, SAM), as well as scaling laws.",
 		"lecturer": "Cees Snoek",
 		"week": 1,
 		"documents": [
@@ -41,7 +41,7 @@
 		"type": "lecture",
 		"name": "Training Models at Scale",
 		"date": "April 9, 2024",
-		"desc": "TBD.",
+		"desc": "This lecture gives a deepdive into the ML engineering behind scaling models on single- and multi-device setups. It discusses per-device optimizations such as compilation, kernel optimization (e.g. Flash Attention), gradient checkpoint and accumulation, and profiling. The second part covers basics behind data parallelism, pipeline parallelism, and tensor parallelism.",
 		"lecturer": "Phillip Lippe",
 		"week": 2,
 		"documents": [
