@@ -45,9 +45,16 @@
 		"lecturer": "Phillip Lippe",
 		"week": 2,
 		"documents": [
-			{"name": "Tutorial Notebooks",
-			"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/scaling/JAX/overview.html",
-			"type": "pdf"}
+			{
+				"name": "Slides",
+				"link": "https://drive.google.com/file/d/1ttbzldrqX6B8Tlob_bVEnYKuVLmj6QHz/view?usp=share_link",
+				"type": "pdf"
+			},
+			{
+				"name": "Tutorial Notebooks",
+				"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/scaling/JAX/overview.html",
+				"type": "pdf"
+			}
 		],
 		"recordings": [
 		]
