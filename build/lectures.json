@@ -65,10 +65,15 @@
 		"type": "lecture",
 		"name": "Pre-Training Across Modalities",
 		"date": "April 12, 2024",
-		"desc": "TBD.",
+		"desc": "The most powerful foundation models known today are intrinsically multimodal, exploit a very long context and are capable of amazing abilities. Yet, much of their underlying technology is closed. In this lecture we give an overview of large-scale multimodal pre-training methods that appeared in the last few years, that should provide hints on the architecture, model specifics and datasets used by their modern counterparts. A recent trend is mixture-of-expert modelling, this will be covered in a separate lecture later in this course.",
 		"lecturer": "Cees Snoek",
 		"week": 2,
 		"documents": [
+			{
+				"name": "Slides",
+				"link": "https://drive.google.com/file/d/1ocuiXhr6wRFC5r2ikihGdPei6jiACtPW/view?usp=share_link",
+				"type": "pdf"
+			}
 		],
 		"recordings": [
 		]
@@ -77,12 +82,17 @@
 
 	{
 		"type": "lecture",
-		"name": "Adaptation",
+		"name": "Adaptation and Alignment",
 		"date": "April 16, 2024",
-		"desc": "TBD.",
+		"desc": "This lectures covers adaptation and alignment techniques, including in-context learning, prompting, instruction tuning, and RLHF.",
 		"lecturer": "Cees Snoek",
 		"week": 3,
 		"documents": [
+			{
+				"name": "Slides",
+				"link": "https://drive.google.com/file/d/1ZJKJwV30tbtRbzoSRwHaWczRX0NLQONd/view?usp=share_link",
+				"type": "pdf"
+			}
 		],
 		"recordings": [
 		]
