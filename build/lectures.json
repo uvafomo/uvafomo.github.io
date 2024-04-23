@@ -122,10 +122,15 @@
 		"type": "lecture",
 		"name": "Diffusion Models",
 		"date": "April 23, 2024",
-		"desc": "TBD.",
-		"lecturer": "Cees Snoek",
+		"desc": "The lecture first introduces the theoretical fundamentals of DDPM, and then covers topics on guided diffusion, cascades, and latent diffusion.",
+		"lecturer": "Cees Snoek, Samuele Papa",
 		"week": 4,
 		"documents": [
+			{
+				"name": "Slides",
+				"link": "https://drive.google.com/file/d/1_n22mUrnHbefaFsHbKWSt-Hw-r1_rQW6/view?usp=sharing",
+				"type": "pdf"
+			}
 		],
 		"recordings": [
 		]
