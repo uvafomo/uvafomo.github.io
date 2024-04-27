@@ -141,10 +141,15 @@
 		"type": "lecture",
 		"name": "Safety",
 		"date": "April 26, 2024",
-		"desc": "TBD.",
+		"desc": "In this three-part lecture, we discuss alignment, mechanistic interpretability, and developmental interpretability.",
 		"lecturer": "Leon Lang, Tim Bakker, Leonard Bereska (UvA)",
 		"week": 4,
 		"documents": [
+			{
+				"name": "Slides",
+				"link": "https://drive.google.com/file/d/10eHVMQXnftFgQWfiQxuz7rXyHCG5g_2L/view?usp=sharing",
+				"type": "pdf"
+			}
 		],
 		"recordings": [
 		]
