@@ -193,10 +193,15 @@
 		"type": "lecture",
 		"name": "Mixture of Experts",
 		"date": "May 17, 2024",
-		"desc": "TBD.",
+		"desc": "This lecture gives an introduction to Mixture of Experts architectures.",
 		"lecturer": "Yuki Asano",
 		"week": 7,
 		"documents": [
+			{
+				"name": "Slides",
+				"link": "https://drive.google.com/file/d/1_0hv6g-lfbDdrrxB9u2TxGtNkT3zOtP7/view?usp=sharing",
+				"type": "pdf"
+			}
 		],
 		"recordings": [
 		]
