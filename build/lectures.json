@@ -212,10 +212,15 @@
 		"type": "lecture",
 		"name": "Geo-Political Economy of AI",
 		"date": "May 21, 2024",
-		"desc": "TBD.",
+		"desc": "This lecture discusses the political situation around AI and its impact on the economy.",
 		"lecturer": "Paul Verhagen",
 		"week": 8,
 		"documents": [
+			{
+				"name": "Slides",
+				"link": "https://drive.google.com/file/d/1GhORtLtjNCLEIPNS9mZo4nQrgr0EIASj/view?usp=sharing",
+				"type": "pdf"
+			}
 		],
 		"recordings": [
 		]
