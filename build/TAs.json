@@ -1,18 +1,13 @@
 [
 	{
-		"name": "Phillip Lippe",
-		"website": "https://phlippe.github.io/",
-		"mail": "p.lippe@uva.nl"
+		"name": "Yingjun Du",
+		"website": "https://yingjundu.github.io/",
+		"mail": "y.du@uva.nl"
 	},
 	{
-		"name": "Danilo de Goede",
+		"name": "Ivona Najdenkoska",
 		"website": "",
-		"mail": "danilogoede@gmail.com"
-	},
-	{
-		"name": "Mohammadreza Salehi",
-		"website": "",
-		"mail": "s.salehidehnavi@uva.nl"
+		"mail": "i.najdenkoska@uva.nl"
 	},
 	{
 		"name": "Mohammad Mahdi Derakhshani",
@@ -20,14 +15,19 @@
 		"mail": "m.m.derakhshani@uva.nl"
 	},
 	{
-		"name": "Aritra Bhowmik",
+		"name": "Leonard Bereska",
 		"website": "",
-		"mail": "a.bhowmik@uva.nl"
+		"mail": "l.f.bereska@uva.nl"
 	},
 	{
-		"name": "Ivona Najdenkoska",
+		"name": "Mina Ghadimiatigh",
 		"website": "",
-		"mail": "a.bhowmik@uva.nl"
+		"mail": "m.ghadimiatigh@uva.nl"
+	},
+	{
+		"name": "Tejaswi Kasarla",
+		"website": "",
+		"mail": "t.kasarla@uva.nl"
 	},
 	{
 		"name": "Kien Nguyen",
@@ -35,9 +35,9 @@
 		"mail": "kienduynguyen94@gmail.com"
 	},
 	{
-		"name": "Leon Lang",
+		"name": "Samuele Papa",
 		"website": "",
-		"mail": "l.lang@uva.nl"
+		"mail": "S.papa@uva.nl"
 	},
 	{
 		"name": "Michael Dorkenwald",
@@ -45,13 +45,23 @@
 		"mail": "m.l.dorkenwald@uva.nl"
 	},
 	{
-		"name": "Yingjun Du",
+		"name": "Christina Sartzetaki",
 		"website": "",
-		"mail": "y.du@uva.nl"
+		"mail": "c.sartzetaki@uva.nl"
 	},
 	{
-		"name": "Zehao Xiao",
+		"name": "Pengwan Yang",
 		"website": "",
-		"mail": "z.xiao@uva.nl"
+		"mail": "p.yang3@uva.nl"
+	},
+	{
+		"name": "John Gkountouras",
+		"website": "",
+		"mail": "i.gkountouras@uva.nl"
+	},
+	{
+		"name": "Mohammadreza Salehidehnavi",
+		"website": "",
+		"mail": "s.salehidehnavi@uva.nl"
 	}
 ]
