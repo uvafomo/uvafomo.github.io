@@ -14,7 +14,7 @@ DEFAULT_DOCUMENT = "<a <!--$$LINK$$-->><i class='fa fa <!--$$ICON$$--> text-prim
 DEFAULT_RECORDING = "<a <!--$$LINK$$-->><i class='fa fa fa-video-camera text-primary'></i><span class='lecture-document'><!--$$NAME$$--></span></a></br>"
 DEFAULT_TA_NAME = "<a href='<!--$$LINK$$-->' target='_blank' style='color: white;'><!--$$NAME$$--></a>"
 DEFAULT_TA_PICTURE = "<a href='<!--$$LINK$$-->'><img class='img-circle' src='<!--$$IMAGE$$-->' hspace='5' width='120' alt='<!--$$NAME$$-->' title='<!--$$NAME$$-->'></a>"
-DEFAULT_PICTURE_FILENAME = "images/people/default-picture-2.jpg"
+DEFAULT_PICTURE_FILENAME = "images/people/default-picture.png"
 
 def _create_document_list(document_dict):
 	document_list = []
