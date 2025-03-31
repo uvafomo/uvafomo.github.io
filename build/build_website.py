@@ -16,8 +16,27 @@ DEFAULT_TA_NAME = "<a href='<!--$$LINK$$-->' target='_blank' style='color: white
 DEFAULT_TA_PICTURE = "<a href='<!--$$LINK$$-->'><img class='img-circle' src='<!--$$IMAGE$$-->' hspace='5' width='120' alt='<!--$$NAME$$-->' title='<!--$$NAME$$-->'></a>"
 DEFAULT_PICTURE_FILENAME = "images/people/default-picture.png"
 
-def _create_document_list(document_dict):
+def _create_document_list(document_dict, dict_entry):
 	document_list = []
+
+	# Check if both current and last year slides exist and create buttons dynamically
+	if "current_year_slides" in dict_entry and "last_year_slides" in dict_entry:
+		current_year_link = dict_entry["current_year_slides"]
+		last_year_link = dict_entry["last_year_slides"]
+
+		# Create HTML for both buttons dynamically
+		button_html = f"""
+		<p><a href="{current_year_link}" class="btn btn-primary">Current Year Slides</a></p>
+		<p><a href="{last_year_link}" class="btn btn-secondary">Last Year Slides</a></p>
+		"""
+		document_list.append(button_html)
+	else:
+		# If one or both slides are missing, notify the user
+		if "current_year_slides" not in dict_entry:
+			document_list.append("<p><em>Current year slides are not available.</em></p>")
+			if "last_year_slides" not in dict_entry:
+				document_list.append("<p><em>Last year slides are not available.</em></p>")
+
 	for d in document_dict:
 		doc_html = DEFAULT_DOCUMENT
 		doc_html = doc_html.replace("<!--$$NAME$$-->", d["name"] + (" (link TBA)" if len(d["link"])==0 else ""))
@@ -87,7 +106,7 @@ def build_lectures(index_file,
 				entry_html = entry_html.replace("<!--$$%s$$-->" % tag, dict_entry[value])
 
 		if "documents" in dict_entry:
-			document_text = _create_document_list(dict_entry["documents"])
+			document_text = _create_document_list(dict_entry["documents"], dict_entry)
 		else:
 			document_text = "Documents will be added soon."
 		entry_html = entry_html.replace("<!--$$DOCUMENTS$$-->", document_text)
