@@ -16,13 +16,21 @@ DEFAULT_TA_NAME = "<a href='<!--$$LINK$$-->' target='_blank' style='color: white
 DEFAULT_TA_PICTURE = "<a href='<!--$$LINK$$-->'><img class='img-circle' src='<!--$$IMAGE$$-->' hspace='5' width='120' alt='<!--$$NAME$$-->' title='<!--$$NAME$$-->'></a>"
 DEFAULT_PICTURE_FILENAME = "images/people/default-picture.png"
 
-def _create_document_list(document_dict, dict_entry):
+def _create_document_list(document_dict):
 	document_list = []
 
 	for d in document_dict:
 		doc_html = DEFAULT_DOCUMENT
+
+		# Handle the first slidedeck
+		slide1_text = "<span>slides</span>" if not d.get("slide1") else f"<a href='{d['slide1']}'><span class='lecture-document'>slides</span></a>"
+
+        # Handle the second slidedeck
+		slide2_text = "<span>slides</span>" if not d.get("slide2") else f"<a href='{d['slide2']}'><span class='lecture-document'>slides</span></a>"
+
 		doc_html = doc_html.replace("<!--$$NAME$$-->", d["name"] + (" (link TBA)" if len(d["link"])==0 else ""))
-		doc_html = doc_html.replace("<!--$$LINK$$-->", ("href='%s'"%d["link"]) if len(d["link"])>0 else "")
+		doc_html = doc_html.replace("<!--$$LINK$$-->", "")
+		# ("href='%s'"%d["link"]) if len(d["link"])>0 else ""
 		doc_html = doc_html.replace("<!--$$ICON$$-->", ICONS.get(d["type"], DEFAULT_ICON))
 		document_list.append(doc_html)
 	document_list = "\n".join(document_list)
@@ -88,7 +96,7 @@ def build_lectures(index_file,
 				entry_html = entry_html.replace("<!--$$%s$$-->" % tag, dict_entry[value])
 
 		if "documents" in dict_entry:
-			document_text = _create_document_list(dict_entry["documents"], dict_entry)
+			document_text = _create_document_list(dict_entry["documents"])
 		else:
 			document_text = "Documents will be added soon."
 		entry_html = entry_html.replace("<!--$$DOCUMENTS$$-->", document_text)
