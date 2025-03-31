@@ -36,7 +36,7 @@ def _create_document_list(document_dict):
 
 			doc_html = doc_html.replace("<!--$$NAME$$-->", "")
 			# d["name"] + (" (link TBA)" if len(d["link"])==0 else "")
-			doc_html = doc_html.replace("<!--$$LINK$$-->", f"href='{slide_link}'" if slide_link else "")
+			doc_html = doc_html.replace("<!--$$LINK$$-->", f"href='{slide_html}'" if slide_link else "")
 			# ("href='%s'"%d["link"]) if len(d["link"])>0 else ""
 			doc_html = doc_html.replace("<!--$$ICON$$-->", ICONS.get(d["type"], DEFAULT_ICON))
 
