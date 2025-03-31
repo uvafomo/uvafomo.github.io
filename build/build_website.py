@@ -20,22 +20,25 @@ def _create_document_list(document_dict):
 	document_list = []
 
 	for d in document_dict:
-		doc_html = DEFAULT_DOCUMENT
 
-		# Handle the first slidedeck
-		slide1_text = "<span>slides</span>" if not d.get("slide1") else f"<a href='{d['slide1']}'><span class='lecture-document'>slides</span></a>"
+		slide_entries = []
 
-        # Handle the second slidedeck
-		slide2_text = "<span>slides</span>" if not d.get("slide2") else f"<a href='{d['slide2']}'><span class='lecture-document'>slides</span></a>"
+		for slide_num in [1, 2]:  # Check both slide1 and slide2
+			slide_key = f"slide{slide_num}"
+			slide_link = d.get(slide_key, "")
 
-		doc_html = doc_html.replace("<!--$$NAME$$-->", d["name"] + (" (link TBA)" if len(d["link"])==0 else ""))
-		doc_html = doc_html.replace("<!--$$LINK$$-->", "")
-		# ("href='%s'"%d["link"]) if len(d["link"])>0 else ""
-		doc_html = doc_html.replace("<!--$$ICON$$-->", ICONS.get(d["type"], DEFAULT_ICON))
+			doc_html = DEFAULT_DOCUMENT
 
-		doc_html += f"<br>{slide1_text} | {slide2_text}"
+			doc_html = doc_html.replace("<!--$$NAME$$-->", "")
+			# d["name"] + (" (link TBA)" if len(d["link"])==0 else "")
+			doc_html = doc_html.replace("<!--$$LINK$$-->", f"href='{slide_link}'" if slide_link else "")
+			# ("href='%s'"%d["link"]) if len(d["link"])>0 else ""
+			doc_html = doc_html.replace("<!--$$ICON$$-->", ICONS.get(d["type"], DEFAULT_ICON))
 
-		document_list.append(doc_html)
+			slide_entries.append(doc_html)
+
+		document_list.append("\n".join(slide_entries))
+		# document_list.append(doc_html)
 	document_list = "\n".join(document_list)
 	if len(document_list) == 0:
 		document_list = "No documents."
