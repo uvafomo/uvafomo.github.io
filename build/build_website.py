@@ -27,6 +27,11 @@ def _create_document_list(document_dict):
 			slide_key = f"slide{slide_num}"
 			slide_link = d.get(slide_key, "")
 
+			if slide_link:  # If there's a link, make it clickable
+				slide_html = f"<a href='{slide_link}'><i class='fa {ICONS.get(d['type'], DEFAULT_ICON)} text-primary'></i> slides</a>"
+			else:  # Otherwise, just plain text with an icon
+				slide_html = f"<i class='fa {ICONS.get(d['type'], DEFAULT_ICON)} text-primary'></i> slides"
+
 			doc_html = DEFAULT_DOCUMENT
 
 			doc_html = doc_html.replace("<!--$$NAME$$-->", "")
