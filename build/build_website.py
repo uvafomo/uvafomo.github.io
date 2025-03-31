@@ -32,6 +32,9 @@ def _create_document_list(document_dict):
 		doc_html = doc_html.replace("<!--$$LINK$$-->", "")
 		# ("href='%s'"%d["link"]) if len(d["link"])>0 else ""
 		doc_html = doc_html.replace("<!--$$ICON$$-->", ICONS.get(d["type"], DEFAULT_ICON))
+
+		doc_html += f"<br>{slide1_text} | {slide2_text}"
+
 		document_list.append(doc_html)
 	document_list = "\n".join(document_list)
 	if len(document_list) == 0:
