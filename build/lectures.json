@@ -6,12 +6,9 @@
 		"desc": "This lecture introduces the course and reviews the basics behind Transformers and their application to NLP and Vision.",
 		"lecturer": "Cees Snoek",
 		"week": 1,
-		"last_year_slides": " ",
-		"current_year_slides":"https://drive.google.com/file/d/1UP5AifhAPzCqlh5U3GJB2X6Uf77SFlj_/view?usp=share_link",
 		"documents": [
 			{
 				"name": "Slides",
-
 				"link": "https://drive.google.com/file/d/1UP5AifhAPzCqlh5U3GJB2X6Uf77SFlj_/view?usp=share_link",
 				"type": "pdf"
 			}
