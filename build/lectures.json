@@ -1,15 +1,15 @@
 [
 	{
 		"type": "lecture",
-		"name": "Introduction and Transformer Basics",
-		"date": "April 2, 2024",
+		"name": "Introduction and Transformers",
+		"date": "April 1, 2025",
 		"desc": "This lecture introduces the course and reviews the basics behind Transformers and their application to NLP and Vision.",
 		"lecturer": "Cees Snoek",
 		"week": 1,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "https://drive.google.com/file/d/1UP5AifhAPzCqlh5U3GJB2X6Uf77SFlj_/view?usp=share_link",
+				"link": "",
 				"type": "pdf"
 			}
 		],
@@ -20,15 +20,15 @@
 
 	{
 		"type": "lecture",
-		"name": "Pre-Training from Language to Vision",
-		"date": "April 5, 2024",
-		"desc": "This lecture discusses pre-training methods for language (GPT, LLaMa) and vision (DINO, MAE, SAM), as well as scaling laws.",
-		"lecturer": "Cees Snoek",
+		"name": "",
+		"date": "April 4, 2025",
+		"desc": "",
+		"lecturer": "",
 		"week": 1,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "https://drive.google.com/file/d/1Gg0nHotSPD4Of55-jNQO7IOUXqTFeCm2/view?usp=share_link",
+				"link": "",
 				"type": "pdf"
 			}
 		],
@@ -39,20 +39,20 @@
 
 	{
 		"type": "lecture",
-		"name": "Training Models at Scale",
-		"date": "April 9, 2024",
-		"desc": "This lecture gives a deepdive into the ML engineering behind scaling models on single- and multi-device setups. It discusses per-device optimizations such as compilation, kernel optimization (e.g. Flash Attention), gradient checkpoint and accumulation, and profiling. The second part covers basics behind data parallelism, pipeline parallelism, and tensor parallelism.",
-		"lecturer": "Phillip Lippe",
+		"name": "",
+		"date": "April 8, 2025",
+		"desc": "",
+		"lecturer": "",
 		"week": 2,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "https://drive.google.com/file/d/1ttbzldrqX6B8Tlob_bVEnYKuVLmj6QHz/view?usp=share_link",
+				"link": "",
 				"type": "pdf"
 			},
 			{
 				"name": "Tutorial Notebooks",
-				"link": "https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/scaling/JAX/overview.html",
+				"link": "",
 				"type": "pdf"
 			}
 		],
@@ -63,15 +63,15 @@
 
 	{
 		"type": "lecture",
-		"name": "Pre-Training Across Modalities",
-		"date": "April 12, 2024",
-		"desc": "The most powerful foundation models known today are intrinsically multimodal, exploit a very long context and are capable of amazing abilities. Yet, much of their underlying technology is closed. In this lecture we give an overview of large-scale multimodal pre-training methods that appeared in the last few years, that should provide hints on the architecture, model specifics and datasets used by their modern counterparts. A recent trend is mixture-of-expert modelling, this will be covered in a separate lecture later in this course.",
-		"lecturer": "Cees Snoek",
+		"name": "",
+		"date": "April 11, 2025",
+		"desc": "",
+		"lecturer": "",
 		"week": 2,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "https://drive.google.com/file/d/1ocuiXhr6wRFC5r2ikihGdPei6jiACtPW/view?usp=share_link",
+				"link": "",
 				"type": "pdf"
 			}
 		],
@@ -82,15 +82,15 @@
 
 	{
 		"type": "lecture",
-		"name": "Adaptation and Alignment",
-		"date": "April 16, 2024",
-		"desc": "This lectures covers adaptation and alignment techniques, including in-context learning, prompting, instruction tuning, and RLHF.",
-		"lecturer": "Cees Snoek",
+		"name": "",
+		"date": "April 15, 2025",
+		"desc": "",
+		"lecturer": "",
 		"week": 3,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "https://drive.google.com/file/d/1ZJKJwV30tbtRbzoSRwHaWczRX0NLQONd/view?usp=share_link",
+				"link": "",
 				"type": "pdf"
 			}
 		],
@@ -101,34 +101,15 @@
 
 	{
 		"type": "lecture",
-		"name": "Parameter-Efficient Fine Tuning",
-		"date": "April 19, 2024",
-		"desc": "We discuss methods for parameter-efficient fine tuning of large foundation models.",
-		"lecturer": "Yuki Asano",
-		"week": 3,
-		"documents": [
-			{
-				"name": "Slides",
-				"link": "https://drive.google.com/file/d/1s7lNViX7MOfGc1NWKcmv0hWA7OQJOLRU/view?usp=sharing",
-				"type": "pdf"
-			}
-		],
-		"recordings": [
-		]
-	},
-
-
-	{
-		"type": "lecture",
-		"name": "Diffusion Models",
-		"date": "April 23, 2024",
-		"desc": "The lecture first introduces the theoretical fundamentals of DDPM, and then covers topics on guided diffusion, cascades, and latent diffusion.",
-		"lecturer": "Cees Snoek, Samuele Papa",
+		"name": "",
+		"date": "April 22, 2025",
+		"desc": "",
+		"lecturer": "",
 		"week": 4,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "https://drive.google.com/file/d/1_n22mUrnHbefaFsHbKWSt-Hw-r1_rQW6/view?usp=sharing",
+				"link": "",
 				"type": "pdf"
 			}
 		],
@@ -139,15 +120,15 @@
 
 	{
 		"type": "lecture",
-		"name": "Safety",
-		"date": "April 26, 2024",
-		"desc": "In this three-part lecture, we discuss alignment, mechanistic interpretability, and developmental interpretability.",
-		"lecturer": "Leon Lang, Tim Bakker, Leonard Bereska (UvA)",
+		"name": "",
+		"date": "April 25, 2025",
+		"desc": "",
+		"lecturer": "",
 		"week": 4,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "https://drive.google.com/file/d/10eHVMQXnftFgQWfiQxuz7rXyHCG5g_2L/view?usp=sharing",
+				"link": "",
 				"type": "pdf"
 			}
 		],
@@ -158,10 +139,29 @@
 
 	{
 		"type": "lecture",
-		"name": "Ethics, Law & Society",
-		"date": "May 7, 2024",
-		"desc": "The slides for this lecture are not public. Please refer to Canvas with your UvA student login to find the slides.",
-		"lecturer": "Maria Rebrean (ALLAI)",
+		"name": "",
+		"date": "May 6, 2025",
+		"desc": "",
+		"lecturer": "",
+		"week": 6,
+		"documents": [
+			{
+				"name": "Slides",
+				"link": "",
+				"type": "pdf"
+			}
+		],
+		"recordings": [
+		]
+	},
+
+
+	{
+		"type": "lecture",
+		"name": "",
+		"date": "May 9, 2025",
+		"desc": "",
+		"lecturer": "",
 		"week": 6,
 		"documents": [
 		],
@@ -172,15 +172,15 @@
 
 	{
 		"type": "lecture",
-		"name": "Small-Scale Models",
-		"date": "May 14, 2024",
-		"desc": "This lecture discusses reviews dataset methods and architecture for small-scale models.",
-		"lecturer": "Cees Snoek",
+		"name": "",
+		"date": "May 13, 2025",
+		"desc": "",
+		"lecturer": "",
 		"week": 7,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "https://drive.google.com/file/d/1TP1aMt-_r5zBoi69jRcimh2QFTdDRP2_/view?usp=sharing",
+				"link": "",
 				"type": "pdf"
 			}
 		],
@@ -191,15 +191,15 @@
 
 	{
 		"type": "lecture",
-		"name": "Mixture of Experts",
-		"date": "May 17, 2024",
-		"desc": "This lecture gives an introduction to Mixture of Experts architectures.",
-		"lecturer": "Yuki Asano",
+		"name": "",
+		"date": "May 16, 2025",
+		"desc": "",
+		"lecturer": "",
 		"week": 7,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "https://drive.google.com/file/d/1_0hv6g-lfbDdrrxB9u2TxGtNkT3zOtP7/view?usp=sharing",
+				"link": "",
 				"type": "pdf"
 			}
 		],
@@ -210,15 +210,15 @@
 
 	{
 		"type": "lecture",
-		"name": "Geo-Political Economy of AI",
-		"date": "May 21, 2024",
-		"desc": "This lecture discusses the political situation around AI and its impact on the economy.",
-		"lecturer": "Paul Verhagen",
+		"name": "",
+		"date": "May 20, 2025",
+		"desc": "",
+		"lecturer": "",
 		"week": 8,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "https://drive.google.com/file/d/1GhORtLtjNCLEIPNS9mZo4nQrgr0EIASj/view?usp=sharing",
+				"link": "",
 				"type": "pdf"
 			}
 		],
@@ -229,10 +229,10 @@
 
 	{
 		"type": "lecture",
-		"name": "FoMo Potpourri",
-		"date": "May 24, 2024",
-		"desc": "TBD.",
-		"lecturer": "Cees Snoek and TAs",
+		"name": "",
+		"date": "May 23, 2025",
+		"desc": "",
+		"lecturer": "",
 		"week": 8,
 		"documents": [
 		],
@@ -244,9 +244,9 @@
 	{
 		"type": "lecture",
 		"name": "Project Poster Session",
-		"date": "May 29, 2024",
-		"desc": "TBD.",
-		"lecturer": "Cees Snoek",
+		"date": "May 27, 2025",
+		"desc": "",
+		"lecturer": "Course staff",
 		"week": 9,
 		"documents": [
 		],
