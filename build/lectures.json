@@ -28,7 +28,7 @@
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "",
+				"link": "https://drive.google.com/file/d/1ijvWQFiAwJf7ntGdLeXegpM7_g9RyWaw/view?usp=sharing",
 				"type": "pdf"
 			}
 		],
@@ -47,11 +47,6 @@
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "",
-				"type": "pdf"
-			},
-			{
-				"name": "Tutorial Notebooks",
 				"link": "",
 				"type": "pdf"
 			}
