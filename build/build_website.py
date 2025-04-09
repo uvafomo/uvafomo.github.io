@@ -176,5 +176,5 @@ if __name__ == '__main__':
 	index_file = build_TA_list(index_file)
 	index_file = build_lectures(index_file)
 
-	with open("index.html", "w") as f:
+	with open("../index.html", "w") as f:
 		f.write(index_file)
