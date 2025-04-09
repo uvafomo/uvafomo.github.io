@@ -20,15 +20,15 @@
 
 	{
 		"type": "lecture",
-		"name": "",
+		"name": "Pre-Training from Language to Vision",
 		"date": "April 4, 2025",
 		"desc": "",
-		"lecturer": "",
+		"lecturer": "Cees Snoek",
 		"week": 1,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "https://drive.google.com/file/d/1ijvWQFiAwJf7ntGdLeXegpM7_g9RyWaw/view?usp=sharing", 
+				"link": "https://drive.google.com/file/d/1ijvWQFiAwJf7ntGdLeXegpM7_g9RyWaw/view?usp=sharing",
 				"type": "pdf"
 			}
 		],
