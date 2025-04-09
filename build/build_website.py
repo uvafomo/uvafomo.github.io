@@ -19,7 +19,7 @@ DEFAULT_PICTURE_FILENAME = "images/people/default-picture.png"
 def _create_document_list(document_dict):
     document_list = []
     for d in document_dict:
-        if "link1" in d and "link2" in d:
+        if "link1" in d and d["link2"] in d:
             # Create first link
             doc_html = DEFAULT_DOCUMENT
             doc_html = doc_html.replace("<!--$$NAME$$-->", d["name"] + " (1)" + (" (link TBA)" if len(d["link1"])==0 else ""))
