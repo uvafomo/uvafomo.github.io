@@ -16,37 +16,6 @@ DEFAULT_TA_NAME = "<a href='<!--$$LINK$$-->' target='_blank' style='color: white
 DEFAULT_TA_PICTURE = "<a href='<!--$$LINK$$-->'><img class='img-circle' src='<!--$$IMAGE$$-->' hspace='5' width='120' alt='<!--$$NAME$$-->' title='<!--$$NAME$$-->'></a>"
 DEFAULT_PICTURE_FILENAME = "images/people/default-picture.png"
 
-# def _create_document_list(document_dict):
-#     document_list = []
-#     for d in document_dict:
-# 		# Check if last year's slides are also added ...
-#         if "link1" in d and "link2" in d:
-#             # Create first link
-#             doc_html = DEFAULT_DOCUMENT
-#             doc_html = doc_html.replace("<!--$$NAME$$-->", d["name"] + (" (link TBA)" if len(d["link1"])==0 else ""))
-#             doc_html = doc_html.replace("<!--$$LINK$$-->", ("href='%s'"%d["link1"]) if len(d["link1"])>0 else "")
-#             doc_html = doc_html.replace("<!--$$ICON$$-->", ICONS.get(d["type"], DEFAULT_ICON))
-#             document_list.append(doc_html)
-#
-#             # Create second link
-#             doc_html = DEFAULT_DOCUMENT
-#             doc_html = doc_html.replace("<!--$$NAME$$-->", d["name"] + " (last year)" + (" (N/A)" if len(d["link2"])==0 else ""))
-#             doc_html = doc_html.replace("<!--$$LINK$$-->", ("href='%s'"%d["link2"]) if len(d["link2"])>0 else "")
-#             doc_html = doc_html.replace("<!--$$ICON$$-->", ICONS.get(d["type"], DEFAULT_ICON))
-#             document_list.append(doc_html)
-#         else:
-# 			# ... if not, show just a single link
-#             doc_html = DEFAULT_DOCUMENT
-#             doc_html = doc_html.replace("<!--$$NAME$$-->", d["name"] + (" (link TBA)" if len(d.get("link", ""))==0 else ""))
-#             doc_html = doc_html.replace("<!--$$LINK$$-->", ("href='%s'"%d["link"]) if "link" in d and len(d["link"])>0 else "")
-#             doc_html = doc_html.replace("<!--$$ICON$$-->", ICONS.get(d["type"], DEFAULT_ICON))
-#             document_list.append(doc_html)
-#
-#     document_list = "\n".join(document_list)
-#     if len(document_list) == 0:
-#         document_list = "No documents."
-#     return document_list
-
 def _create_document_list(document_dict):
 	document_list = []
 	for d in document_dict:
