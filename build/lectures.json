@@ -9,7 +9,8 @@
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "https://drive.google.com/file/d/1SvkQGkqow0UHYsa8uxja76yHmBy8loyj/view?usp=sharing",
+				"link1": "https://drive.google.com/file/d/1SvkQGkqow0UHYsa8uxja76yHmBy8loyj/view?usp=sharing",
+				"link2": "https://drive.google.com/file/d/1UP5AifhAPzCqlh5U3GJB2X6Uf77SFlj_/view?usp=share_link",
 				"type": "pdf"
 			}
 		],
@@ -42,7 +43,7 @@
 		"name": "Pre-Training Across Modalities",
 		"date": "April 8, 2025",
 		"desc": "",
-		"lecturer": "",
+		"lecturer": "Cees Snoek",
 		"week": 2,
 		"documents": [
 			{

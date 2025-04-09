@@ -22,14 +22,14 @@ def _create_document_list(document_dict):
         if "link1" in d and "link2" in d:
             # Create first link
             doc_html = DEFAULT_DOCUMENT
-            doc_html = doc_html.replace("<!--$$NAME$$-->", d["name"] + " (1)" + (" (link TBA)" if len(d["link1"])==0 else ""))
+            doc_html = doc_html.replace("<!--$$NAME$$-->", d["name"] + (" (link TBA)" if len(d["link1"])==0 else ""))
             doc_html = doc_html.replace("<!--$$LINK$$-->", ("href='%s'"%d["link1"]) if len(d["link1"])>0 else "")
             doc_html = doc_html.replace("<!--$$ICON$$-->", ICONS.get(d["type"], DEFAULT_ICON))
             document_list.append(doc_html)
 
             # Create second link
             doc_html = DEFAULT_DOCUMENT
-            doc_html = doc_html.replace("<!--$$NAME$$-->", d["name"] + " (2)" + (" (link TBA)" if len(d["link2"])==0 else ""))
+            doc_html = doc_html.replace("<!--$$NAME$$-->", d["name"] + " (last year)" + (" (link TBA)" if len(d["link2"])==0 else ""))
             doc_html = doc_html.replace("<!--$$LINK$$-->", ("href='%s'"%d["link2"]) if len(d["link2"])>0 else "")
             doc_html = doc_html.replace("<!--$$ICON$$-->", ICONS.get(d["type"], DEFAULT_ICON))
             document_list.append(doc_html)
