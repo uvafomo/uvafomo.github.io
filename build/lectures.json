@@ -58,15 +58,15 @@
 
 	{
 		"type": "lecture",
-		"name": "",
+		"name": "Scaling Transformers: 5D parallelism",
 		"date": "April 11, 2025",
 		"desc": "",
-		"lecturer": "",
+		"lecturer": "Mohammad Mahdi Derakhshani",
 		"week": 2,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "",
+				"link": "https://drive.google.com/file/d/144U7cl3Fm91vJtCbKyv9ctb_Zj_cxp5v/view?usp=sharing",
 				"type": "pdf"
 			}
 		],
