@@ -58,7 +58,7 @@
 
 	{
 		"type": "lecture",
-		"name": "Scaling Transformers: 5D parallelism",
+		"name": "Scaling Transformers - 5D parallelism",
 		"date": "April 11, 2025",
 		"desc": "",
 		"lecturer": "Mohammad Mahdi Derakhshani",
@@ -77,15 +77,15 @@
 
 	{
 		"type": "lecture",
-		"name": "",
+		"name": "Adaption & Alignment",
 		"date": "April 15, 2025",
 		"desc": "",
-		"lecturer": "",
+		"lecturer": "Cees Snoek",
 		"week": 3,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "",
+				"link": "https://drive.google.com/file/d/1nXKKuThX3_WUvyXAA01dC-wfnFJ54N_2/view?usp=sharing",
 				"type": "pdf"
 			}
 		],
