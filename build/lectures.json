@@ -123,7 +123,7 @@
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "",
+				"link": "https://drive.google.com/file/d/1l6VAikCWSoosZ_ngJOrnjWpJiHcx1ZOd/view?usp=sharing",
 				"type": "pdf"
 			}
 		],
@@ -134,15 +134,33 @@
 
 	{
 		"type": "lecture",
-		"name": "",
+		"name": "Ethics and AI",
 		"date": "May 6, 2025",
 		"desc": "",
-		"lecturer": "",
+		"lecturer": "Dasha Simons",
 		"week": 6,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "",
+				"link": "https://drive.google.com/file/d/1IiwTGCmzkVB08pTJ9k5LMgQB-54brpQu/view?usp=sharing",
+				"type": "pdf"
+			}
+		],
+		"recordings": [
+		]
+	},
+
+	{
+		"type": "lecture",
+		"name": "Legal considerations of AI",
+		"date": "May 6, 2025",
+		"desc": "",
+		"lecturer": "Marten Steketee",
+		"week": 6,
+		"documents": [
+			{
+				"name": "Slides",
+				"link": "https://drive.google.com/file/d/1r5oZutKdLCg97OAkUTiPU_CoFkBZB_JW/view?usp=sharing",
 				"type": "pdf"
 			}
 		],
