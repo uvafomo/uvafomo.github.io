@@ -69,6 +69,7 @@ def build_lectures(index_file,
 			lecture_count += 1
 			entry_html = lecture_template
 			dict_entry["name"] = "Lecture %i: " % (lecture_count) + dict_entry["name"]
+
 			if idx < len(lectures_dict) - 1 and lectures_dict[idx+1]["week"] != week:
 				dict_entry["style"] = "margin-bottom: 40px;"
 

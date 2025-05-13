@@ -177,6 +177,11 @@
 		"lecturer": "",
 		"week": 6,
 		"documents": [
+			{
+				"name": "Slides",
+				"link": "https://drive.google.com/file/d/13XVnO8RvF6JZC7p4-77hNceU0x1d54kQ/view?usp=sharing",
+				"type": "pdf"
+			}
 		],
 		"recordings": [
 		]
