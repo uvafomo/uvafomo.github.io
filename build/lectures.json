@@ -190,15 +190,15 @@
 
 	{
 		"type": "lecture",
-		"name": "",
+		"name": "Technology & (Geo)Politics",
 		"date": "May 13, 2025",
 		"desc": "",
-		"lecturer": "",
+		"lecturer": "Paul Verhagen",
 		"week": 7,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "",
+				"link": "https://drive.google.com/file/d/1vc5AVP1SgBrc5i2VCIkZwOHQ8F8G_N7g/view?usp=sharing",
 				"type": "pdf"
 			}
 		],
