@@ -209,15 +209,15 @@
 
 	{
 		"type": "lecture",
-		"name": "",
+		"name": "Scaling Transformers - 5D Parallelism",
 		"date": "May 16, 2025",
 		"desc": "",
-		"lecturer": "",
+		"lecturer": "Mohammad Mahdi Derakhshani",
 		"week": 7,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "",
+				"link": "https://drive.google.com/file/d/1vgVtwHVMtnzTrupqOGY22mTA6wFBhMeA/view?usp=sharing",
 				"type": "pdf"
 			}
 		],
@@ -228,15 +228,15 @@
 
 	{
 		"type": "lecture",
-		"name": "",
+		"name": "FoMo Potpourri",
 		"date": "May 20, 2025",
 		"desc": "",
-		"lecturer": "",
+		"lecturer": "Cees Snoek",
 		"week": 8,
 		"documents": [
 			{
 				"name": "Slides",
-				"link": "",
+				"link": "https://drive.google.com/file/d/1Ye-rKr-p845PbObBxEdpdRkSMvZgIXhR/view?usp=sharing",
 				"type": "pdf"
 			}
 		],
