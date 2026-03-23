@@ -5,54 +5,34 @@
 		"mail": "y.du@uva.nl"
 	},
 	{
-		"name": "Ivona Najdenkoska",
-		"website": "https://ivonajdenkoska.github.io/",
-		"mail": "i.najdenkoska@uva.nl"
-	},
-	{
-		"name": "Mohammad Mahdi Derakhshani",
-		"website": "https://mmderakhshani.github.io/",
-		"mail": "m.m.derakhshani@uva.nl"
-	},
-	{
-		"name": "Leonard Bereska",
-		"website": "https://leonardbereska.github.io/",
-		"mail": "l.f.bereska@uva.nl"
-	},
-	{
-		"name": "Mina Ghadimi Atigh",
-		"website": "https://minaghadimi.github.io/",
-		"mail": "m.ghadimiatigh@uva.nl"
-	},
-	{
-		"name": "Tejaswi Kasarla",
-		"website": "https://tkasarla.github.io",
-		"mail": "t.kasarla@uva.nl"
-	},
-	{
-		"name": "Samuele Papa",
-		"website": "https://samuelepapa.github.io/",
-		"mail": "s.papa@uva.nl"
-	},
-	{
-		"name": "Kien Nguyen",
-		"website": "",
-		"mail": "d.k.nguyen@uva.nl"
-	},
-	{
 		"name": "Christina Sartzetaki",
 		"website": "https://sites.google.com/view/csartzetaki/",
 		"mail": "c.sartzetaki@uva.nl"
 	},
 	{
-		"name": "Pengwan Yang",
-		"website": "",
-		"mail": "p.yang3@uva.nl"
+		"name": "Gowreesh Mago",
+		"website": "https://gowreesh-mago.github.io",
+		"mail": "g.mago@uva.nl"
 	},
 	{
-		"name": "John Gkountouras",
-		"website": "https://j0hngou.github.io/",
-		"mail": "i.gkountouras@uva.nl"
+		"name": "Swasti Mishra",
+		"website": "https://scholar.google.com/citations?user=iQnAsBwAAAAJ&hl=en",
+		"mail": "s.mishra@uva.nl"
+	},
+	{
+		"name": "Ana Manzano",
+		"website": "https://scholar.google.com/citations?user=NFWrStMAAAAJ&hl=en",
+		"mail": "a.manzanorodriguez@uva.nl"
+	},
+	{
+		"name": "Wenfang Sun",
+		"website": "https://wenfangsun.cn",
+		"mail": "w.sun@uva.nl"
+	},
+	{
+		"name": "Dheeraj Varghese",
+		"website": "https://dhevarghese.github.io",
+		"mail": "d.varghese@uva.nl"
 	},
 	{
 		"name": "Mohammadreza Salehi",
@@ -60,13 +40,48 @@
 		"mail": "s.salehidehnavi@uva.nl"
 	},
 	{
-		"name": "Riccardo Valperga",
-		"website": "https://github.com/Ricvalp",
-		"mail": "r.valperga@uva.nl"
+		"name": "Yassin Mohamadi",
+		"website": "https://scholar.google.com/citations?user=2qkluosAAAAJ&hl=en",
+		"mail": "y.mohamadi@uva.nl"
 	},
 	{
-		"name": "Aritra Bhowmik",
-		"website": "",
-		"mail": "a.bhowmik@uva.nl"
+		"name": "Ioana Simion",
+		"website": "https://scholar.google.com/citations?user=Su8iPecAAAAJ&hl=en",
+		"mail": "i.simion@uva.nl"
+	},
+	{
+		"name": "Sara Rajaee",
+		"website": "https://sara-rajaee.github.io",
+		"mail": "s.rajaee@uva.nl"
+	},
+	{
+		"name": "Yijia Zheng",
+		"website": "https://github.com/zhengyijia",
+		"mail": "y.zheng@uva.nl"
+	},
+	{
+		"name": "Ivo Verhoeven",
+		"website": "https://www.ivoverhoeven.nl",
+		"mail": "i.verhoeven@uva.nl"
+	},
+	{
+		"name": "Danilo de Goede",
+		"website": "https://ivi.fnwi.uva.nl/vislab/author/danilo-de-goede/",
+		"mail": "d.degoede@uva.nl"
+	},
+	{
+		"name": "Ruthu Rooparaghunath",
+		"website": "https://scholar.google.com/citations?user=RM1dNQoAAAAJ&hl=en",
+		"mail": ""
+	},
+	{
+		"name": "Walter Simoncini",
+		"website": "https://scholar.google.com/citations?user=YfmqjwEAAAAJ&hl=en",
+		"mail": "w.simoncini@uva.nl"
+	},
+	{
+		"name": "Maya Nachesa",
+		"website": "https://scholar.google.com/citations?user=R6UViVIAAAAJ&hl=en",
+		"mail": "m.k.nachesa@uva.nl"
 	}
 ]

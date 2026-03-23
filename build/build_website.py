@@ -159,7 +159,7 @@ def build_TA_list(index_file,
 		TA_pic = TA_pic.replace("<!--$$IMAGE$$-->", TA["picture"])
 		TA_pic = TA_pic.replace("<!--$$LINK$$-->", TA["link"])
 
-		if (i + 1) % 4 == 0: # Every row should only have 4 pictures. First one is lecturer
+		if (i + 1) % 5 == 0: # Every row should only have 4 pictures. First one is lecturer
 			TA_pic = TA_pic + "</br></br>"
 		TA_pic_list.append(TA_pic)
 
